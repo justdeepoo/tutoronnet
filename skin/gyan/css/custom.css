@@ -1,0 +1,9 @@
+.message-box{
+	background: red none repeat scroll 0 0;
+	 padding: 14px;
+	 text-align: center;
+	 font-size: 15px;
+}
+.error-message {
+	color: #fff;
+}

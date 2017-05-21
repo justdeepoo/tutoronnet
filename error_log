@@ -1,0 +1,10 @@
+[15-Feb-2017 16:03:43 UTC] PHP Parse error:  syntax error, unexpected 'email_format' (T_STRING), expecting variable (T_VARIABLE) in /home/justwm/public_html/order-management/application/controllers/orders.php on line 784
+[15-Feb-2017 16:03:53 UTC] PHP Parse error:  syntax error, unexpected 'email_format' (T_STRING), expecting variable (T_VARIABLE) in /home/justwm/public_html/order-management/application/controllers/orders.php on line 784
+[15-Feb-2017 16:25:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/justwm/public_html/order-management/application/controllers/orders.php on line 557
+[17-Feb-2017 18:43:09 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/justwm/public_html/order-management/application/controllers/orders.php on line 328
+[17-Feb-2017 18:46:21 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/justwm/public_html/order-management/application/controllers/orders.php on line 329
+[17-Feb-2017 18:46:26 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/justwm/public_html/order-management/application/controllers/orders.php on line 329
+[17-Feb-2017 18:46:26 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/justwm/public_html/order-management/application/controllers/orders.php on line 329
+[17-Feb-2017 18:46:58 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/justwm/public_html/order-management/application/controllers/orders.php on line 743
+[17-Feb-2017 18:47:03 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/justwm/public_html/order-management/application/controllers/orders.php on line 743
+[17-Feb-2017 18:47:03 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/justwm/public_html/order-management/application/controllers/orders.php on line 743
