@@ -15,7 +15,7 @@
 |
 */
 //echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-$config['base_url']	= 'http://localhost/tutoronnet';
+$config['base_url']	= 'http://localhost/tutoronnet/';
 
 /*
 |--------------------------------------------------------------------------
@@ -46,9 +46,9 @@ $config['index_page'] = "";
 | 'ORIG_PATH_INFO'	Uses the ORIG_PATH_INFO
 |
 */
-//$config['uri_protocol']	= 'AUTO';
+$config['uri_protocol']	= 'AUTO';
 
-$config['uri_protocol']	= 'REQUEST_URI';
+//$config['uri_protocol']	= 'REQUEST_URI';
 
 
 /*

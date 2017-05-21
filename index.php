@@ -18,6 +18,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
+
 	define('ENVIRONMENT', 'development');
 /*
  *---------------------------------------------------------------
@@ -37,6 +38,7 @@ if (defined('ENVIRONMENT'))
 		break;
 	
 		case 'testing':
+
 		case 'production':
 			error_reporting(0);
 		break;
@@ -206,7 +208,7 @@ if (defined('ENVIRONMENT'))
  * And away we go...
  *
  */
-
+ini_set('display_errors', 1);
 require_once BASEPATH.'core/CodeIgniter.php';
 
 /* End of file index.php */
