@@ -50,10 +50,16 @@ $active_record = TRUE;
 
 
 
+// $db['default']['hostname'] = 'localhost';
+// $db['default']['username'] ='root';
+// $db['default']['password'] = 'Pa$$1234';
+// $db['default']['database'] = 'tutoronnet';
+
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] ='root';
-$db['default']['password'] = 'Pa$$1234';
+$db['default']['username'] ='dbserveraccess';
+$db['default']['password'] = 'MaT$1999@';
 $db['default']['database'] = 'tutoronnet';
+
 
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
