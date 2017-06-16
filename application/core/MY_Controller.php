@@ -15,7 +15,7 @@ class Base_Controller extends CI_Controller
 	protected $template_header='';
 	protected $template_footer='';
 	public $theme='gyan';
-	public $root_path='/';
+	public $root_path="";
 	public function __construct()
 	{
 		parent::__construct();
@@ -26,6 +26,8 @@ class Base_Controller extends CI_Controller
 		
 		$this->data['ajax']=$this->ajax;
 		$this->current_date=date('Y-m-d H:i:s');
+
+		$this->root_path = ROOT_PATH;
 	}
 	/*
 		This function simply calls $this->load->view()
