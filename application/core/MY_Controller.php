@@ -15,7 +15,7 @@ class Base_Controller extends CI_Controller
 	protected $template_header='';
 	protected $template_footer='';
 	public $theme='gyan';
-	public $root_path='/tutoronnet/';
+	public $root_path='/';
 	public function __construct()
 	{
 		parent::__construct();
