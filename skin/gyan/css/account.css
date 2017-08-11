@@ -1,0 +1,32 @@
+.message-box{
+	background: red none repeat scroll 0 0;
+	 padding: 14px;
+	 text-align: center;
+	 font-size: 15px;
+}
+.error-message {
+	color: #fff;
+}
+.error-border{
+    border:red solid 1px;
+    background: rgb(251, 227, 228) none repeat scroll 0 0;
+}
+.text-error{
+    font-size: 11px; color: red;
+    padding-top: 3px;
+}
+.login-right .form-control {
+   
+    margin-bottom: 0px;
+}
+.text-error p {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+

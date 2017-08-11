@@ -26,7 +26,7 @@
 					   
 						<div class="field-set">
 								 <div class="form-group">
-									<select class="form-control">
+									<select class="form-control" name="subject">
 										<option value="">Select Subject</option>
 										<?php
 											if($subjects->num_rows())

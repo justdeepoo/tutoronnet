@@ -1,0 +1,32 @@
+.question-title {
+    color: blue;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.col-md-12.part {
+    padding: 5px 0;
+}
+.btn.label-btn-primary {
+    background: #367fa9 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 11px;
+}
+.question-sections {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 14px;
+}
+.bdr-heading-none {
+ 
+  border-bottom:none;
+}
+.bdr-heading{
+	font-size: 20px;
+}
+.col-lg-12.tools {
+    padding-top: 10px;
+}
+.pad-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}

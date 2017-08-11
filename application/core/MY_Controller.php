@@ -16,6 +16,8 @@ class Base_Controller extends CI_Controller
 	protected $template_footer='';
 	public $theme='gyan';
 	public $root_path="";
+	public $user_id = false;
+
 	public function __construct()
 	{
 		parent::__construct();
@@ -27,6 +29,9 @@ class Base_Controller extends CI_Controller
 		$this->data['ajax']=$this->ajax;
 		$this->current_date=date('Y-m-d H:i:s');
 
+		if($this->session->userdata('user_login'))
+			$this->user_id=$this->session->userdata('user_id');
+		
 		$this->root_path = ROOT_PATH;
 	}
 	/*
@@ -57,6 +62,7 @@ class Base_Controller extends CI_Controller
 	}
 	function view($view, $vars = array(), $login=false)
 	{
+
 		if(!isset($vars['meta_title']))
 			$vars['meta_title']='';
 		if(!isset($vars['meta_key']))
@@ -103,7 +109,7 @@ class Auth_Controller extends Base_Controller
 class Admin_Controller extends Base_Controller 
 {
 	public $template=false;
-	private $user_id=false;
+	
 	function __construct()
 	{
 		parent::__construct();
@@ -114,7 +120,7 @@ class Admin_Controller extends Base_Controller
 			// redirect(base_url().'secure/change_password');
 		
 		$this->load->model('order_model');
-		$this->user_id=$this->session->userdata('user_id');
+		
 		$this->CSS_URl=base_url().'assets/';
 		$this->JS_URl=base_url().'assets/';
 		$this->MEDIA_URl=base_url().'assets/';
@@ -131,12 +137,33 @@ class Priviledge_Controller extends Base_Controller
 	function __construct()
 	{
 		parent::__construct();
-		if($this->session->userdata('loggedAdmin_in')!=TRUE)
+		if($this->session->userdata('user_login')!=TRUE)
 			redirect(base_url().'secure/signup');
 		$this->load->model('login_model');
 		
 		$this->user_id=$this->session->userdata('user_id');
 		
+	}
+}
+/**
+*  
+*/
+class Std extends Base_Controller
+{
+	
+	function __construct()
+	{
+		parent::__construct();
+
+		if($this->session->userdata('user_login')!=TRUE)
+			redirect(base_url().'secure/login');
+		$this->user_id=$this->session->userdata('user_id');
+		$this->load->model('common_model','common');
+		
+		
+		$this->CSS_URl=$this->root_path.'skin/'.$this->theme.'/css/';
+		$this->JS_URl=$this->root_path.'skin/'.$this->theme.'/js/';
+		$this->MEDIA_URl=$this->root_path.'skin/'.$this->theme.'/images/';
 	}
 }
 

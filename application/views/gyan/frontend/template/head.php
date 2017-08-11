@@ -26,10 +26,12 @@
 
 		<link href="<?php echo $this->CSS_URl;?>external/google-code-prettify/prettify.css" rel="stylesheet">
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		
 		<script src="<?php echo $this->CSS_URl;?>external/jquery.hotkeys.js"></script>
 		<script src="<?php echo $this->CSS_URl;?>external/google-code-prettify/prettify.js"></script>
 		<link href="<?php echo $this->CSS_URl;?>index.css" rel="stylesheet">
-		<link href="<?php echo $this->CSS_URl;?>custom.css" rel="stylesheet">
+		<link href="<?php echo $this->CSS_URl;?>account.css" rel="stylesheet">
 	   
 
 

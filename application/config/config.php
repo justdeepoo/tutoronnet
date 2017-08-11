@@ -15,8 +15,8 @@
 |
 */
 //echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-//$config['base_url']	= 'http://localhost:180/';
-$config['base_url']	= 'http://dev.tutorpace.com/tutoronnet/';
+$config['base_url']	= 'http://localhost:180/';
+//$config['base_url']	= 'http://dev.tutorpace.com/tutoronnet/';
 
 /*
 |--------------------------------------------------------------------------

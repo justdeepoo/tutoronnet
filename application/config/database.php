@@ -55,7 +55,7 @@ $active_record = TRUE;
 // $db['default']['password'] = 'Pa$$1234';
 // $db['default']['database'] = 'tutoronnet';
 
-$db['default']['hostname'] = '104.236.33.223';
+$db['default']['hostname'] = 'localhost';//'104.236.33.223';
 $db['default']['username'] ='dbserveraccess';
 $db['default']['password'] = 'MaT$1999@';
 $db['default']['database'] = 'tutoronnet';

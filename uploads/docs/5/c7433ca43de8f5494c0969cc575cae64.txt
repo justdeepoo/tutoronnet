@@ -1,0 +1,21 @@
+
+
+Step 1 - Apply loan  with loan type 1 for personal and 2 - business loan 
+
+step 2 - Get loan status against loan reference id
+
+Step 3 - As per step 2 resonse if loan status is accepted then customer will send required docs via api
+
+Step 4 - Again Step 2 will call for getting latest status
+
+Step 5 - If the docs will approved then customer will get loan offers in response Or if Docs rejected then again customer has to submit docs via step 3 api.
+
+Step 6 - If customer got loan offers in step 4 api call then customer will have options for accept or not accept the loan offer via api.
+
+Step 7 - If customer will accepted that loan offer then again step 2 api will call for latest status.
+
+Step 8 - In this step customer will have to send eSign loan agreement via api (It might go to offline depends on the banks terms.)
+
+Step 9 - After step 8 customer will get his approved loan amount either on his bank account or merchant wallet (Depends on lead origin side as well as bank terms).
+
+Step 10 - Will get updated list of repayments  

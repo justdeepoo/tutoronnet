@@ -1,0 +1,206 @@
+Godaddy Account 
+URL -             https://www.in.godaddy.in/
+Customer id - 132855312
+Passward    - Skoring@88
+
+=============================================
+Lala lends Admin login
+
+username  - admin@lalalends.com
+Password  - givemeaccess
+==================================
+
+Lalalends Blog
+http://lalalends.com/blog/
+username - lalalends
+Password - z%6drtIkIAs!U^N)Bz
+
+DB
+DB name       - lalalends_blog
+Username -         lalalends
+PAssword -         blog_lala_lends
+
+=================================================
+
+Server Login (Mayank)  -
+
+sudo ssh -i /home/deepoo/Documents/Project/Lalalends/key/marketplace-server/id_rsa ubuntu@54.242.216.116
+
+================================
+
+SMS gateway -     MSG91
+URL -             https://msg91.com/
+Username -         identiqo
+Password -         lalalends@199
+MSG91_KEY -     143083Ab8snRIrp58b46055
+
+===================================
+
+Lala lends -  DB
+DB_USERNAME= identiqo
+DB_PASSWORD= unesco@199
+DB_DATABASE= lalalends_app
+
+===================================
+
+AWS Account
+Email -     deepoo@lalalends.com
+Password -     Pa$$1234
+Mobile -       8802172570
+Card Details given - SBI Credit Card (XXXXXXXXXXX6107)
+
+========================================
+
+AWS API server details
+
+Public IP - 34.211.38.159
+sudo ssh -i /home/deepoo/Documents/Project/Lalalends/key/lalalends.pem ubuntu@34.211.38.159
+
+ 
+Mysql user  - root
+Mysql root password - lalalends@accessplz
+
+
+phpmydmin access
+Passward - givemeaccess
+
+
+API DB Credentials -
+
+User 1 -
+Host     	-      34.211.38.159
+Username 	-      frontend
+Passward 	-      givemeaccess
+DB_DATABASE	-      lalalends_app
+
+USer - 2
+Host     	-      34.211.38.159
+username 	-      user-lalalends
+Passward 	-      givemeaccess
+DB_DATABASE	-      lalalends_app
+
+
+
+Secure access of phpmyadmin access
+
+username - lalalends
+Password - 2_%N{+hk6y&S
+
+==========================================
+
+
+Github login details (Here currently api reposatory managed)
+1-
+Email    - deepoo@lalalends.com
+username - lalalends
+Password - Pa$$1234
+
+2-
+Email    - deepoo@identiqo.com
+username - identiqo-deepoo
+Password - Pa$$1234
+
+===========================================================
+
+Okrypto server details  
+
+sudo ssh -i /home/deepoo/Documents/Project/Lalalends/key/lalalends.pem ubuntu@52.10.218.136
+
+Mysql user  - root
+Mysql root password - lalalends@accessplz
+
+DB User     -
+Host        -    localhost
+Username    -    lalalends
+Passward    -    givemeaccess
+DB_DATABASE -    okrypto
+
+Admin login details -
+http://52.89.123.159/wp-admin/
+Username - lalalends
+Password - l(VQo@)ENPg7ofc(lD
+
+==============================================================
+
+Lalalends market place new set up on api server
+
+sudo ssh -i /home/deepoo/Documents/Project/Lalalends/key/lalalends.pem ubuntu@52.34.237.225
+
+lalalends path   /var/www/html/   port 80
+
+api path         /var/www/api/    port 180
+
+
+
+Mysql user  - root
+Mysql root password - lalalends@accessplz
+
+
+phpmydmin access
+Passward - givemeaccess
+
+
+Secure access of phpmyadmin access
+
+username - lalalends
+Password - 2_%N{+hk6y&S
+
+
+
+API DB Credentials -
+
+
+
+User - 1
+Host     	-  52.34.237.225
+username 	-  lalalends
+Passward 	-  blog_lala_lends
+DB_DATABASE	-  lalalends
+
+
+
+
+
+
+
+==============================================
+
+
+Git lab account
+
+username - lalalends
+Password - givemeaccess
+email    - deepoo@lalalends.com
+
+
+=========================================================
+Argo Server
+
+sudo ssh -i /home/deepoo/Documents/Project/Lalalends/key/lalalends.pem ubuntu@34.212.216.41
+Mysql user  - root
+Mysql root password - argo-world@accessplz
+
+DB user -
+Username - single
+Password - l(VQo@)ENPg7ofc(lD
+
+DB user for argo  -
+
+DB_HOST=localhost
+DB_USERNAME=argo
+DB_PASSWORD=12qwaszx
+DB_DATABASE=argo_app
+
+
+
+
+phpmydmin access : -
+Passward - letmein
+
+
+=======================================================
+
+
+
+
+
